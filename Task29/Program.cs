@@ -27,9 +27,10 @@ string N8 = Console.ReadLine();
 
 string [] array = {N1, N2, N3, N4, N5, N6, N7, N8};
 
-int length = array.Length;
-for (int i = 0; i < length; i++)
-{
-    Console.Write(array[i] + " ");
-}
+// int length = array.Length;
+// for (int i = 0; i < length; i++)
+// {
+//     Console.Write(array[i] + " ");
+// }
 
+Console.WriteLine(string.Join(", ", array));
